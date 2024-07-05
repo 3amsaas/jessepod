@@ -499,8 +499,7 @@ const TextGeneration = () => {
 
           <TabHeader
             items={[
-              { id: 'create', name: t('app.generation.tabs.create') },
-              { id: 'batch', name: t('app.generation.tabs.batch') },
+              { id: 'create', name: t('app.generation.tabs.create') },            
             ]}
             value={currTab}
             onChange={setCurrTab}
@@ -517,15 +516,6 @@ const TextGeneration = () => {
                 onVisionFilesChange={setCompletionFiles}
               />
             </div>
-            <!--
-            <div className={cn(isInBatchTab ? 'block' : 'hidden')}>
-              <RunBatch
-                vars={promptConfig.prompt_variables}
-                onSend={handleRunBatch}
-                isAllFinished={allTaskRuned}
-              />
-            </div>
-              -->
           </div>
 
           {/* copyright */}

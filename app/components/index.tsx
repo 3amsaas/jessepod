@@ -517,6 +517,7 @@ const TextGeneration = () => {
                 onVisionFilesChange={setCompletionFiles}
               />
             </div>
+            <!--
             <div className={cn(isInBatchTab ? 'block' : 'hidden')}>
               <RunBatch
                 vars={promptConfig.prompt_variables}
@@ -524,6 +525,7 @@ const TextGeneration = () => {
                 isAllFinished={allTaskRuned}
               />
             </div>
+              -->
           </div>
 
           {/* copyright */}
